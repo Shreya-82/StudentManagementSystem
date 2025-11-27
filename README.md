@@ -70,9 +70,6 @@ CREATE TABLE students (
     email VARCHAR(100)
 );
 
--- 4. (Optional) Insert a dummy user to test
-INSERT INTO students (username, password, fullname, email) 
-VALUES ('testuser', '1234', 'John Doe', 'john@example.com');
 📝 Configuration
 Important: If your MySQL password is not root, you must update the database connection code in the JSP files.
 
@@ -88,7 +85,7 @@ Start Tomcat: Go to your Tomcat bin folder and double-click startup.bat.
 
 Open Browser: Open Chrome or Edge.
 
-Visit URL: > http://localhost:8080/student_sms/
+Visit URL: > [http://localhost:8080/student_sms/](http://localhost:8089/student_sms/index.jsp)
 
 ⚠️ Troubleshooting
 Error: "Class not found com.mysql.cj.jdbc.Driver"
