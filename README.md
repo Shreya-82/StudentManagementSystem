@@ -77,7 +77,7 @@ Open register.jsp, login.jsp, profile.jsp, edit_profile.jsp, and class_list.jsp.
 
 Java
 
-DriverManager.getConnection("jdbc:mysql://localhost:3306/student_sms", "root", "root");
+DriverManager.getConnection("jdbc:mysql://localhost:3306/student_sms?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true", "root", "root"); 
 Change the last "root" to your actual MySQL password.
 
 ▶️ How to Run
